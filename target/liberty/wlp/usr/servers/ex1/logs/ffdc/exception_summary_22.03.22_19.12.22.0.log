@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 22/03/2022 19:12:21:933 BRT 22/03/2022 19:12:22:227 BRT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - /home/kauana/code/ex1/target/liberty/wlp/usr/servers/ex1/logs/ffdc/ffdc_22.03.22_19.12.21.0.log
+------+------+---------------------------+---------------------------+---------------------------

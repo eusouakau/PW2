@@ -1,0 +1,8 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 22/03/2022 19:43:43:285 BRT 22/03/2022 19:43:43:285 BRT java.lang.NoClassDefFoundError com.ibm.wsspi.injectionengine.MethodMap.getAllDeclaredMethods 106
+                                                                            - /home/kauana/code/ex1/target/liberty/wlp/usr/servers/ex1/logs/ffdc/ffdc_22.03.22_19.43.43.0.log
+     1      2 22/03/2022 19:51:34:701 BRT 22/03/2022 19:51:35:105 BRT java.lang.IllegalArgumentException com.ibm.ws.http.channel.internal.HttpResponseMessageImpl.isGoodCharacters(String) 1
+                                                                            - /home/kauana/code/ex1/target/liberty/wlp/usr/servers/ex1/logs/ffdc/ffdc_22.03.22_19.51.34.0.log
+------+------+---------------------------+---------------------------+---------------------------

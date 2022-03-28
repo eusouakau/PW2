@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 27/03/2022 21:29:13:020 BRT 27/03/2022 21:35:51:014 BRT java.lang.NoClassDefFoundError com.ibm.wsspi.injectionengine.MethodMap.getAllDeclaredMethods 106
+                                                                            - /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/logs/ffdc/ffdc_22.03.27_21.29.13.0.log
+------+------+---------------------------+---------------------------+---------------------------

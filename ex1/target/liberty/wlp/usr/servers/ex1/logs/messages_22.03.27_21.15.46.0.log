@@ -1,0 +1,125 @@
+********************************************************************************
+product = Open Liberty 22.0.0.3 (wlp-1.0.62.cl220320220302-1100)
+wlp.install.dir = /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/
+java.home = /usr/lib/jvm/java-11-openjdk-amd64
+java.version = 11.0.14
+java.runtime = OpenJDK Runtime Environment (11.0.14+9-Ubuntu-0ubuntu2.22.10)
+os = Linux (5.13.0-37-generic; amd64) (pt_BR)
+process = 4825@kauana-340XAA-350XAA-550XAA
+Classpath = /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+********************************************************************************
+[23/03/2022 14:22:38:566 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor ex1 foi ativado.
+[23/03/2022 14:22:40:531 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 2,483 segundos
+[23/03/2022 14:22:40:621 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[23/03/2022 14:22:43:112 BRT] 00000017 .apache.cxf.cxf.core.3.2:1.0.62.cl220320220302-1100(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[23/03/2022 14:22:43:115 BRT] 00000018 .apache.cxf.cxf.core.3.2:1.0.62.cl220320220302-1100(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[23/03/2022 14:22:43:279 BRT] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: O serviço de segurança está iniciando...
+[23/03/2022 14:22:43:753 BRT] 00000019 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[23/03/2022 14:22:44:943 BRT] 0000001a rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: O MicroProfile JWT versão 1.2 mpConfigProxy foi processado com sucesso.
+[23/03/2022 14:22:44:979 BRT] 00000019 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: O mpConfigProxy do MicroProfile JWT versão 1.1 foi processado com sucesso.
+[23/03/2022 14:22:45:048 BRT] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: A instância de Cache Dinâmico do WebSphere denominada baseCache foi inicializada com êxito.
+[23/03/2022 14:22:45:078 BRT] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: O provedor de cache default está sendo usado.
+[23/03/2022 14:22:45:079 BRT] 00000017 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Cache Dinâmico (cache de objeto) inicializado com êxito.
+[23/03/2022 14:22:45:458 BRT] 00000027 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: A configuração de LTPA fica pronta após 0,047 segundos.
+[23/03/2022 14:22:45:458 BRT] 0000001f com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/resources/security/public.jks of type: JKS
+[23/03/2022 14:22:45:514 BRT] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: O plug-in de autenticação coletivo com o nome de classe NullCollectiveAuthenticationPlugin foi ativado. 
+[23/03/2022 14:22:45:612 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: A configuração do MicroProfile JWT [MicroProfileJwtService] foi processada com sucesso.
+[23/03/2022 14:22:45:616 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: A configuração do MicroProfile JWT [jwtUserConsumer] foi processada com sucesso.
+[23/03/2022 14:22:45:618 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: A configuração do MicroProfile JWT [defaultMpJwt] foi processada com sucesso.
+[23/03/2022 14:22:45:768 BRT] 00000016 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: O serviço do consumidor JSON Web Token (JWT) está disponível.
+[23/03/2022 14:22:45:791 BRT] 00000016 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: O trabalho de terminal JSON Web Token (JWT) está disponível.
+[23/03/2022 14:22:45:859 BRT] 00000016 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: A classe AuthConfigFactory com.ibm.ws.security.jaspi.ProviderRegistry padrão do Java Authentication SPI for Containers (JASPIC) está sendo usada porque a propriedade de segurança Java authconfigprovider.factory não está configurada. 
+[23/03/2022 14:22:46:394 BRT] 00000016 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[23/03/2022 14:22:46:546 BRT] 00000016 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Métricas de monitoramento podem ser recuperadas por meio do mpMetrics.
+[23/03/2022 14:22:47:883 BRT] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: ibm/api.
+[23/03/2022 14:22:47:897 BRT] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web ibm/api foi ligado ao default_host.
+[23/03/2022 14:22:47:883 BRT] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: health.
+[23/03/2022 14:22:47:900 BRT] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web health foi ligado ao default_host.
+[23/03/2022 14:22:47:883 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: com.ibm.ws.security.jwt.
+[23/03/2022 14:22:47:901 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web com.ibm.ws.security.jwt foi ligado ao default_host.
+[23/03/2022 14:22:47:883 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: OpenAPIUI.
+[23/03/2022 14:22:47:902 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web OpenAPIUI foi ligado ao default_host.
+[23/03/2022 14:22:47:899 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/ibm/api/
+[23/03/2022 14:22:47:907 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/openapi/ui/
+[23/03/2022 14:22:47:909 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/jwt/
+[23/03/2022 14:22:47:910 BRT] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/health/
+[23/03/2022 14:22:47:876 BRT] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: PublicMicroProfileMetrics.
+[23/03/2022 14:22:47:936 BRT] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web PublicMicroProfileMetrics foi ligado ao default_host.
+[23/03/2022 14:22:47:937 BRT] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/metrics/
+[23/03/2022 14:22:47:946 BRT] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: MicroProfileOpenAPI.
+[23/03/2022 14:22:47:947 BRT] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web MicroProfileOpenAPI foi ligado ao default_host.
+[23/03/2022 14:22:47:964 BRT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/openapi/
+[23/03/2022 14:22:47:980 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo ex1.
+[23/03/2022 14:22:47:984 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo ex1 está usando a definição de aplicativo indefinido no local /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/apps/ex1.war.xml.
+[23/03/2022 14:22:48:096 BRT] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/ibm/api
+[23/03/2022 14:22:48:098 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/health
+[23/03/2022 14:22:48:098 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/metrics
+[23/03/2022 14:22:48:099 BRT] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/openapi/ui
+[23/03/2022 14:22:48:101 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/jwt
+[23/03/2022 14:22:48:295 BRT] 0000002b com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:309 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:317 BRT] 0000002a com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:318 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:319 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:369 BRT] 0000002a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Cache Dinâmico (cache de objeto) inicializado com êxito.
+[23/03/2022 14:22:48:766 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/openapi
+[23/03/2022 14:22:48:766 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:48:855 BRT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Inicialização bem sucedida.
+[23/03/2022 14:22:48:872 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Inicialização bem sucedida.
+[23/03/2022 14:22:48:867 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Inicialização bem sucedida.
+[23/03/2022 14:22:48:879 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Inicialização bem sucedida.
+[23/03/2022 14:22:48:881 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Inicialização bem sucedida.
+[23/03/2022 14:22:49:306 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/logs/state/plugin-cfg.xml.
+[23/03/2022 14:22:51:299 BRT] 00000029 io.smallrye.openapi.runtime.scanner                          W SROAP04005: Could not find schema class in index: java.lang.Object
+[23/03/2022 14:22:51:408 BRT] 00000029 liberty.microprofile.openapi20.internal.ApplicationProcessor I CWWKO1660I: O aplicativo ex1 foi processado e um documento OpenAPI foi produzido.
+[23/03/2022 14:22:51:504 BRT] 00000029 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[23/03/2022 14:22:54:582 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: ex1.
+[23/03/2022 14:22:54:587 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web ex1 foi ligado ao default_host.
+[23/03/2022 14:22:54:588 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/03/2022 14:22:54:603 BRT] 0000003c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/03/2022 14:22:54:609 BRT] 0000003c com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:54:657 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/logs/state/plugin-cfg.xml.
+[23/03/2022 14:22:54:704 BRT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo ex1 foi iniciado em 6,724 segundos.
+[23/03/2022 14:22:54:749 BRT] 00000023 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host localhost  (IPv4: 127.0.0.1) porta 9080.
+[23/03/2022 14:22:54:757 BRT] 00000023 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint-ssl foi iniciado e agora está atendendo solicitações no host localhost  (IPv4: 127.0.0.1) porta 9443.
+[23/03/2022 14:22:54:875 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[23/03/2022 14:22:54:875 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 14,343 segundos.
+[23/03/2022 14:22:54:876 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor ex1 está pronto para gerenciar um planeta mais inteligente. O servidor ex1 foi iniciado em 16,831 segundos.
+[23/03/2022 14:22:57:661 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/03/2022 14:22:57:757 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo ex1 foi interrompido com sucesso.
+[23/03/2022 14:22:57:770 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo ex1.
+[23/03/2022 14:22:57:771 BRT] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo ex1 está usando a definição de aplicativo indefinido no local /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/apps/ex1.war.xml.
+[23/03/2022 14:22:57:829 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/logs/state/plugin-cfg.xml.
+[23/03/2022 14:22:58:973 BRT] 00000027 io.smallrye.openapi.runtime.scanner                          W SROAP04005: Could not find schema class in index: java.lang.Object
+[23/03/2022 14:22:58:979 BRT] 00000027 liberty.microprofile.openapi20.internal.ApplicationProcessor I CWWKO1660I: O aplicativo ex1 foi processado e um documento OpenAPI foi produzido.
+[23/03/2022 14:22:59:738 BRT] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: ex1.
+[23/03/2022 14:22:59:738 BRT] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web ex1 foi ligado ao default_host.
+[23/03/2022 14:22:59:739 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/03/2022 14:22:59:761 BRT] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/03/2022 14:22:59:762 BRT] 0000002b com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/03/2022 14:22:59:793 BRT] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo ex1 foi atualizado em 2,022 segundos.
+[23/03/2022 14:22:59:798 BRT] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/logs/state/plugin-cfg.xml.
+[23/03/2022 14:24:21:067 BRT] 00000012 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor ex1 está parando porque a JVM está saindo.
+[23/03/2022 14:24:21:072 BRT] 00000042 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
+[23/03/2022 14:24:21:154 BRT] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint-ssl interrompeu o atendimento das solicitações no host localhost  (IPv4: 127.0.0.1) porta 9443.
+[23/03/2022 14:24:21:165 BRT] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host localhost  (IPv4: 127.0.0.1) porta 9080.
+[23/03/2022 14:24:21:166 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/jwt/
+[23/03/2022 14:24:21:167 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/openapi/ui/
+[23/03/2022 14:24:21:168 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/health/
+[23/03/2022 14:24:21:168 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/metrics/
+[23/03/2022 14:24:21:169 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/03/2022 14:24:21:178 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/ibm/api/
+[23/03/2022 14:24:21:178 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/openapi/
+[23/03/2022 14:24:21:550 BRT] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em quarta-feira, 23 de março de 2022 às 14:24. O servidor ex1 está sendo encerrado.
+[23/03/2022 14:24:22:185 BRT] 00000042 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
+[23/03/2022 14:24:22:222 BRT] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo ex1 foi interrompido com sucesso.
+[23/03/2022 14:24:22:702 BRT] 00000042 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5782I: O MicroProfile JWT versão 1.2 mpConfigProxy foi desativado com sucesso.
+[23/03/2022 14:24:22:704 BRT] 00000042 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: O mpConfigProxy do MicroProfile JWT versão 1.1 foi desativado com sucesso.
+[23/03/2022 14:24:22:707 BRT] 00000042 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: A configuração do MicroProfile JWT [jwtUserConsumer] foi desativada com sucesso.
+[23/03/2022 14:24:22:709 BRT] 00000042 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: A configuração do MicroProfile JWT [defaultMpJwt] foi desativada com sucesso.
+[23/03/2022 14:24:22:710 BRT] 00000042 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: A configuração do MicroProfile JWT [MicroProfileJwtService] foi desativada com sucesso.
+[23/03/2022 14:24:22:783 BRT] 00000042 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2004I: Todas as métricas de monitoramento tiveram seu registro cancelado do mpMetrics.
+[23/03/2022 14:24:23:074 BRT] 00000042 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: O plug-in de autenticação coletivo com o nome de classe NullCollectiveAuthenticationPlugin foi desativado. 
+[23/03/2022 14:24:23:087 BRT] 00000042 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: O serviço de segurança parou.
+[23/03/2022 14:24:23:909 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor ex1 foi interrompido depois de 1 minutos, 45,863 segundos.

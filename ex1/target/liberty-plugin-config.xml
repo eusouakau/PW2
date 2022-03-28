@@ -3,13 +3,13 @@
     <activeBuildProfiles>
         <profileId>liberty</profileId>
     </activeBuildProfiles>
-    <installDirectory>/home/kauana/code/ex1/target/liberty/wlp</installDirectory>
-    <serverDirectory>/home/kauana/code/ex1/target/liberty/wlp/usr/servers/ex1</serverDirectory>
-    <userDirectory>/home/kauana/code/ex1/target/liberty/wlp/usr</userDirectory>
-    <serverOutputDirectory>/home/kauana/code/ex1/target/wlp-package/ex1</serverOutputDirectory>
+    <installDirectory>/home/kauana/code/PW2/PW2/ex1/target/liberty/wlp</installDirectory>
+    <serverDirectory>/home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1</serverDirectory>
+    <userDirectory>/home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/home/kauana/code/PW2/PW2/ex1/target/wlp-package/ex1</serverOutputDirectory>
     <serverName>ex1</serverName>
-    <configDirectory>/home/kauana/code/ex1/src/main/liberty/config</configDirectory>
-    <configFile>/home/kauana/code/ex1/src/main/liberty/config/server.xml</configFile>
+    <configDirectory>/home/kauana/code/PW2/PW2/ex1/src/main/liberty/config</configDirectory>
+    <configFile>/home/kauana/code/PW2/PW2/ex1/src/main/liberty/config/server.xml</configFile>
     <bootstrapProperties>
         <app.context.root>/</app.context.root>
         <jwt.issuer>https://server.example.com</jwt.issuer>
@@ -27,9 +27,9 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>/home/kauana/.m2/repository/io/openliberty/openliberty-kernel/22.0.0.3/openliberty-kernel-22.0.0.3.zip</assemblyArchive>
-    <assemblyInstallDirectory>/home/kauana/code/ex1/target/liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>/home/kauana/code/PW2/PW2/ex1/target/liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <installAppsConfigDropins>/home/kauana/code/ex1/target/liberty/wlp/usr/servers/ex1/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <installAppsConfigDropins>/home/kauana/code/PW2/PW2/ex1/target/liberty/wlp/usr/servers/ex1/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
     <projectCompileDependency>io.jaegertracing:jaeger-client:1.5.0</projectCompileDependency>
     <projectCompileDependency>io.jaegertracing:jaeger-thrift:1.5.0</projectCompileDependency>
@@ -49,5 +49,5 @@
     <projectCompileDependency>io.opentracing.contrib:opentracing-tracerresolver:0.1.8</projectCompileDependency>
     <projectCompileDependency>org.slf4j:slf4j-api:1.7.30</projectCompileDependency>
     <projectCompileDependency>org.slf4j:slf4j-jdk14:1.7.30</projectCompileDependency>
-    <warSourceDirectory>/home/kauana/code/ex1/src/main/webapp</warSourceDirectory>
+    <warSourceDirectory>/home/kauana/code/PW2/PW2/ex1/src/main/webapp</warSourceDirectory>
 </liberty-plugin-config>

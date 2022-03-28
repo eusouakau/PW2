@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive>
-    <dir sourceOnDisk="/home/kauana/code/ex1/src/main/webapp" targetInArchive="/"/>
-    <dir sourceOnDisk="/home/kauana/code/ex1/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <dir sourceOnDisk="/home/kauana/code/PW2/PW2/ex1/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/home/kauana/code/PW2/PW2/ex1/target/classes" targetInArchive="/WEB-INF/classes"/>
     <file sourceOnDisk="/home/kauana/.m2/repository/io/jaegertracing/jaeger-client/1.5.0/jaeger-client-1.5.0.jar" targetInArchive="/WEB-INF/lib/jaeger-client-1.5.0.jar"/>
     <file sourceOnDisk="/home/kauana/.m2/repository/io/jaegertracing/jaeger-thrift/1.5.0/jaeger-thrift-1.5.0.jar" targetInArchive="/WEB-INF/lib/jaeger-thrift-1.5.0.jar"/>
     <file sourceOnDisk="/home/kauana/.m2/repository/org/apache/thrift/libthrift/0.13.0/libthrift-0.13.0.jar" targetInArchive="/WEB-INF/lib/libthrift-0.13.0.jar"/>
@@ -20,5 +20,5 @@
     <file sourceOnDisk="/home/kauana/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.8/opentracing-tracerresolver-0.1.8.jar" targetInArchive="/WEB-INF/lib/opentracing-tracerresolver-0.1.8.jar"/>
     <file sourceOnDisk="/home/kauana/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" targetInArchive="/WEB-INF/lib/slf4j-api-1.7.30.jar"/>
     <file sourceOnDisk="/home/kauana/.m2/repository/org/slf4j/slf4j-jdk14/1.7.30/slf4j-jdk14-1.7.30.jar" targetInArchive="/WEB-INF/lib/slf4j-jdk14-1.7.30.jar"/>
-    <file sourceOnDisk="/home/kauana/code/ex1/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    <file sourceOnDisk="/home/kauana/code/PW2/PW2/ex1/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
 </archive>
